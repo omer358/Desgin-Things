@@ -26,9 +26,6 @@
     background-color: #3EC1D5;
 
 }
-h1{
-
-}
 
 .head{
     padding: 15px;
@@ -162,8 +159,10 @@ h1{
 
 }
 .our-team-cards .im img{
-    width: 600px;
+    width: 300px;
     height: 300px;
+    border-radius: 50%; 
+    border: 5px solid #3EC1D5;
 }
 .our-team-cards .disc{
     width: 55%;
