@@ -1,0 +1,173 @@
+.container{
+    width:85%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+#nav {
+    display: block;
+}
+#nav li{
+    padding: 5px;
+    display: inline;
+    margin: 10px;
+
+}
+#nav li a{
+    padding: 5px ;
+    color: white;
+    border: 1px solid #ecebec;
+    border-radius:2px ;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+#nav li a:hover{
+    background-color: #3EC1D5;
+
+}
+h1{
+
+}
+
+.head{
+    padding: 15px;
+    background-color: rgba(26, 26, 53, 0.73);
+    position: fixed;
+    top: 0;
+    width:100%;
+    color: white;
+
+}
+
+#banner{
+
+    background-attachment: scroll , fixed;
+    background-color: #fff;
+    background-image:url("../images/overlay.png"), url("../images/2.jpg");
+    background-position: top left, center center;
+    background-repeat: repeat, no-repeat;
+    background-size: auto, cover;
+    padding: 200px 0 220px 0;
+    text-align: center;
+
+}
+
+#services{
+}
+#services .cards{
+    margin: 20px 5px 20px 5px;
+    width: 23.8%;
+    height: 300px;
+    display: inline-block;
+    box-shadow:  -3px 2px 7px 1px rgba(26, 26, 53, 0.22);
+    border-radius: 5px;
+    text-align: center;
+
+}
+.cards img {
+    box-sizing:border-box ;
+    width: 100%;
+
+}
+
+#info{
+    margin-top: 80px;
+    background-attachment: scroll , fixed;
+    background-color: #fff;
+    background-image:url("../images/overlay.png"), url("../images/slider3.jpg");
+    background-position: top left, center center;
+    background-repeat: repeat, no-repeat;
+    background-size: auto, cover;
+    padding: 40px 0 20px 0;
+    text-align: center;
+    color: white;
+}
+#info img{
+    height: 200px;
+}
+#info h1{
+    color: white;
+}
+#info div{
+    width: 50%;
+    display: inline-block;
+    padding: 20px;
+}
+#info form{
+    border: 1px solid white;
+    width: 400px;
+    border-radius: 15px;
+    margin: auto;
+}
+#info input{
+    width: 285px;
+    border-radius: 15px 0 0 15px;
+    display: inline-block;
+    height: 40px;
+    padding: 0 0 0 10px;
+    background-color: rgba(26, 26, 53, 0.03);
+    border: medium none;
+
+
+}
+#info button{
+    border-radius: 0 15px  15px 0;
+    border: medium none;
+    width: 101px;
+   height: 44px;
+}
+
+#news{
+
+}
+#news .news-cards{
+    margin: 1%;
+    width: 31%;
+    height: 300px;
+    display: inline-block;
+
+}
+
+
+.services h1{
+    margin: 50px 0 50px 0;
+}
+
+.services a{
+    font-size: 50px;
+    text-align: center;
+}
+.services .service{
+
+    width: 31%;
+    margin: 1%;
+    display: inline-block;
+}
+.services .service:hover h3{
+    color: #3EC1D5;
+}
+.services .service:hover a{
+    color: #3EC1D5;
+}
+
+.our-team-cards{
+    height: 350px;
+}
+.our-team-cards .im{
+    width: 44%;
+    float: left;
+    display: inline-block;
+    margin-right: 1%;
+
+}
+.our-team-cards .im img{
+    width: 600px;
+    height: 300px;
+}
+.our-team-cards .disc{
+    width: 55%;
+    float: right;
+    display: inline-block;
+
+}
