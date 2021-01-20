@@ -1,31 +1,46 @@
-<!DOCTYPE html>
+            <!DOCTYPE html>
 <html>
 <head>
 	<title>Login</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/login.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <style>
+        body{
+            background-image: url(assets/images/login.jpg)
+        }
+    </style>
 </head>
-<body> 
-   	 <form class="form">  
-        <div class="container">   
-        	
-	<center> <h1>login</h1> </center> 
-            <input type="text" placeholder="Enter Username" name="username" required> <br>
-            <input type="password" placeholder="Enter password" name="password" required> <br>
-             <span style="float: right; margin-right: 15%">Forgot <a href="#"> password? </a> </span>   <br> 
-            <button type="submit" style="border-radius: 14px">Login</button>   <br> 
-            or <br>
-            <a target="_blank" href="https:www.facebook.com">
-                <img src="https://img.icons8.com/color/48/000000/facebook-new.png"/> 
-            </a>
-            <a target="_blank" href="https:www.google.com">
-                <img src="https://img.icons8.com/fluent/48/000000/google-logo.png"/>
-            </a>
-            <a target="_blank" href="https:www.github.com">
-                <img src="https://img.icons8.com/fluent/48/000000/github.png"/>
-            </a>
-            <p>Don't have account!</p>
-             <button type="submit" style="border-radius: 14px">Sign up</button>
-        </div>   
-    </form>  
+    
+<body background="assets/images/login.jpg" style="background-size:cover ">
+<div class="container ">
+   <div class="log">
+       <h1>login</h1>
+       <form class="form">
+           <input type="text" placeholder="Enter Username" name="username" style="height: 50px" required> <br>
+           <input type="password" placeholder="Enter password" name="password"  style="height: 50px" required> <br>
+           <span style="float: right; margin-right: 15%">Forgot <a href="#"> password? </a> </span>   <br>
+           <button class="l-button " type="submit" style="border-radius: 14px">Login</button>   <br>
+
+
+       </form>
+       or <br>
+       <a target="_blank" href="https:www.facebook.com">
+           <img src="https://img.icons8.com/color/48/000000/facebook-new.png"/>
+       </a>
+       <a target="_blank" href="https:www.google.com">
+           <img src="https://img.icons8.com/fluent/48/000000/google-logo.png"/>
+       </a>
+       <a target="_blank" href="https:www.github.com">
+           <img src="https://img.icons8.com/fluent/48/000000/github.png"/>
+       </a>
+       <p>Don't have account! </p>
+       <a href="register.html">Sign up</a>
+   </div>
+</div>
 </body>
 </html>

@@ -1,0 +1,65 @@
+            <!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css">
+    <link rel ="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <style>
+        body{
+            background-image: url(assets/images/login.jpg)
+        }
+    </style>
+</head>
+    
+<body background="assets/images/login.jpg" style="background-size:cover ">
+<div class="container ">
+   <div class="log">
+       <h1>Registration</h1>
+       <form class="form" name="login" onsubmit="return(validation());">
+           <input type="text" placeholder="Enter Username" name="username" style="height: 50px"> <br>
+           <input type="text" placeholder="second name" name="secondName" style="height: 50px" ><br>
+           <input type="email" placeholder="Entert Email" name="email" style="height: 50px" ><br>
+           <input type="password" placeholder="Enter password" name="password" style="height: 50px" > <br>
+           <input type="password" placeholder="Repeat Password" name="psw-repeat" style="height: 50px" ><br>    
+           <span style="float: right; margin-right: 15%">Forgot <a href="#"> password? </a> </span>   <br>
+           <button class="l-button " type="submit" style="border-radius: 14px">register</button>   <br>
+
+
+       </form>
+       or <br>
+       <a href="login.html">Sign in</a>
+        
+   </div>
+</div>
+<script >
+  function validation(){
+    if (document.login.username =="") {
+      alert("Please provide the user!");
+      document.login.focus();
+      return false;
+    }
+    if (document.login.email =="") {
+       alert("Please provide the the Email!");
+      document.login.focus();
+      return false;
+    }
+     if (document.login.password <= 8 ) {
+       alert("Please provide the password!");
+      document.login.focus();
+      return false;
+    }
+     if (document.login.password == document.login.psw-repeat) {
+       alert("the passwords don't match!");
+      document.login.focus();
+      return false;
+    }
+    return(true)
+  }
+</script>
+</body>
+</html>
